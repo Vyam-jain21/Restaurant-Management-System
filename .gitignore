@@ -1,55 +1,29 @@
-# Prerequisites
-*.d
-
-# Object files
+# Compiled source files
 *.o
-*.ko
+*.out
+*.exe
+
+# Build files
+a.out
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
-*.so.*
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Backup files
+*.bak
+*.tmp
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# VS Code settings
+.vscode/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# macOS system files
+.DS_Store
 
-# debug information files
-*.dwo
+# Windows system files
+Thumbs.db
+
+# Ignore your data files if you don’t want them in GitHub
+restaurant.txt
+product.txt
+rest.txt
